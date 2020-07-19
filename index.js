@@ -46,13 +46,24 @@ function writeToFile() {
       }]);
 }
 function generateReadMe (answers) {
-    return ` # ${answers.title}
-            ## ${answers.description}
-            ## ${answers.installation}
-            ## ${answers.usage}
-            ## ${answers.credits}
-            ## ${answers.contribution}
-            ## ${answers.licenses}    
+    return `#${answers.title}
+    ## Description:
+    ${answers.description}
+
+    ## Installation:
+    ${answers.installation}
+
+    ## Usage:
+    ${answers.usage}
+
+    ## Credits:
+    ${answers.credits}
+
+    ## Contribution:
+    ${answers.contribution}
+
+    ## Licenses:
+    ${answers.licenses}    
     `
 }
 
