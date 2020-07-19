@@ -1,4 +1,4 @@
-#readMe-Generator
+# readMe-Generator
 ## Description
  this application takes user input from the command line and turns it into a readme file that they can then use for any of their projects
 ## installlation
